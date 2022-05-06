@@ -6,7 +6,7 @@ import { Button } from 'monorepo-test-utils-2';
 
 const Home: NextPage = () => {
     const rajat: Person = {
-        name: "Rajat",
+        name: "Rajat 2",
         age: 34
     }
   return (
@@ -20,6 +20,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <p>{prettyPrintPerson(rajat)}</p>
         <Button caption="Hehe"></Button>
+        <Button caption="Hihi"></Button>
       </main>
 
       <footer className={styles.footer}>
