@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-test-utils",
+  "version": "0.1.0",
+  "description": "Contains some utilities for testing monorepo.;",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js"
+}
