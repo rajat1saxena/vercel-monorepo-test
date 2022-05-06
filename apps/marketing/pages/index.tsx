@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Person, prettyPrintPerson } from "monorepo-test-utils";
-import { Button } from 'monorepo-test-utils-2';
+// import { Button } from 'monorepo-test-utils-2';
 
 const Home: NextPage = () => {
     const rajat: Person = {
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <p>{prettyPrintPerson(rajat)}</p>
-        <Button caption="Hehe"></Button>
+        {/* <Button caption="Hehe"></Button> */}
       </main>
 
       <footer className={styles.footer}>
