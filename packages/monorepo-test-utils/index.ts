@@ -7,7 +7,7 @@ export interface Address {
 export interface Person {
     name: string;
     age: number;
-    address: Address;
+    address?: Address;
 }
 
 export function prettyPrintPerson(p: Person) {
