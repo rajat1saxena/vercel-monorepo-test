@@ -1,6 +1,6 @@
 {
   "name": "vercel-monorepo-test",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "Rajat Saxena <hi@rajatsaxena.dev>",
   "license": "MIT",
